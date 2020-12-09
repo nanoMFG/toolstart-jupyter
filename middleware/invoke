@@ -1,6 +1,7 @@
 #!/bin/sh
-# Note, the bare "-A" option below indicates that the tool be launched in "app mode". This option should be removed 
-# if publishing a "conventional" notebook that is intended to be executed cell-by-cell.
+# Note, the "-A" option for the start_jupyter command below indicates that the tool be launched in 
+# "app mode". This option should be removed if publishing a "conventional" notebook that is 
+# intended to be executed cell-by-cell.
 /usr/bin/invoke_app "$@" -C "start_jupyter -t -A -T @tool mytool.ipynb" \
 -t mytool \
--u anaconda-6 \
+-u anaconda-6
