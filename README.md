@@ -2,7 +2,9 @@
 Template repository for a nanoHUB tool that uses a Jupyter notebook frontend.
 
 ## Getting Started
-The steps below assume you are a registered developer on nanoHUB.  Refer to the *whypublish* links below for details on why and how to publish content on nanoHUB.  
+The following procedure describes how to get a basic jupyter notebook "tool" up and running on [nanoHUB](https://nanohub.org). 
+It is assumed you are a registered user and developer on nanoHUB and intend to install and publish your notebook content there.
+Refer to the *whypublish* links below for details on why and how to publish content on nanoHUB.  
 
 1. Create a new GitHub repository and select `toolsart-jupyter` as a template.  
 See: [Creating a Repository From a Template](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template)
