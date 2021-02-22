@@ -2,7 +2,7 @@
 # Note, the "-A" option for the start_jupyter command below indicates that the tool be launched in 
 # "app mode". This option should be removed if publishing a "conventional" notebook that is 
 # intended to be executed cell-by-cell.
-# mytool.ipynb and mytool below should be changed to match you notbook name and tool name respectively.
+# mytool.ipynb and mytool below should be changed to match your notebook name and tool name respectively.
 /usr/bin/invoke_app "$@" -C "start_jupyter -t -A -T @tool mytool.ipynb" \
 -t mytool \
 -u anaconda-6
